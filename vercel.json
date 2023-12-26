@@ -6,7 +6,9 @@
       "use": "@vercel/node",
       "config": {
         "includeFiles": [
-          "db/products.json",
+          "db/coffee.json",
+          "db/tea.json",
+          "db/dessert.json",
           "db/favorites.json",
           "public/**/*"
         ]

@@ -1,12 +1,16 @@
 // JSON Server module
 const jsonServer = require('json-server');
-const products = require('./db/products.json');
+const dessert = require('./db/dessert.json');
+const coffee = require("./db/coffee.json");
+const tea = require("./db/tea.json");
 const favorites = require("./db/favorites.json");
 
 const PORT = 3000;
 
 const db = {
-  products: products,
+  coffee: coffee,
+  tea: tea,
+  dessert: dessert,
   favorites: favorites
 };
 
